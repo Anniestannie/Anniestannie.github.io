@@ -1,0 +1,38 @@
+h1 {
+  font-size: 50px;
+  font-family: Lilita One, serif;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+body {
+  background-color: white
+}
+
+
+p {
+  font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.color-scale{
+  padding: 100px;
+}
+
+
+
+#yes-button {
+  background-color:black;  
+  color: white;
+  padding: 20px 40px; 
+  border: none; 
+  font-size: 16px; 
+  display: inline-block;
+  margin:10px; 
+}
+
+#yes-button:hover {
+  background-color:powderblue; 
+}

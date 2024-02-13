@@ -1,0 +1,42 @@
+    h1 {
+    font-size: 50px;
+    font-family: Lilita One, serif;
+    text-align: center;
+    justify-content: center;
+    min-height: 10px;
+    margin-top: 350px;
+    margin-bottom: 100px;
+  }
+
+  body {
+    background-image: url(../img/KITCHEN_.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  p {
+    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+  }
+  a {
+    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+  }
+ .button {
+    background-color:black;  
+    color: white;
+    padding: 20px 40px; 
+    border: none; 
+    font-size: 16px; 
+    cursor: pointer;
+    display: inline-block; 
+    margin: 150px;
+}
+.button:hover {
+  background-color:powderblue;
+}
+.buttontwo {
+  background-color:black;  
+}

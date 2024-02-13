@@ -1,0 +1,29 @@
+    h1 {
+    font-size: 50px;
+    font-family: Lilita One, serif;
+    text-align: center;
+    justify-content: center;
+    min-height: 10px;
+    margin-top: 350px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  body {
+    background-color: brown;
+  }
+
+  #yes-button {
+    background-color:black;  
+    color: white;
+    padding: 20px 40px; 
+    border: none; 
+    font-size: 16px; 
+    margin:10px; 
+    text-align: center;
+}
+
+#yes-button:hover {
+  background-color:powderblue; 
+}

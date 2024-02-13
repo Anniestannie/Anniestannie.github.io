@@ -1,0 +1,66 @@
+    h1 {
+    font-size: 50px;
+    font-family: Lilita One, serif;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  body {
+    background-image: url(../img/KITCHEN_.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  p {
+    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .listcontainter {
+    text-align: center; 
+  } 
+
+  .ingredientslist {
+    list-style-type: none;
+    color: black;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+    font-size: 40px;
+  }
+
+  #yes-button {
+    background-color:black;  
+    color: white;
+    padding: 20px 40px; 
+    border: none; 
+    font-size: 16px; 
+    display: inline-block;
+    margin:10px; 
+
+}
+
+h2{
+  margin-top: 100px;
+}
+
+#yes-button:hover {
+  background-color:powderblue;
+}
+
+#no-button {
+  background-color:black;  
+  color: white;
+  padding: 20px 40px; 
+  border: none; 
+  font-size: 16px; 
+  display: inline-block; 
+  margin:10px; 
+}
+
+#no-button:hover {
+  background-color:powderblue;
+}
