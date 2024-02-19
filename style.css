@@ -13,7 +13,17 @@
     z-index: 7;
   }
   
-  
+  .sparkles{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 30%;
+    left: 65%;
+    object-fit: cover;
+    z-index: -1;
+
+  }
+
   .AnnieSWebsites {
     color: black;
     font-size: 15px;
