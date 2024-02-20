@@ -110,6 +110,8 @@
 
   .listcontainter {
     text-align: left;
+    margin-left: 47%;
+    margin-top: 10%;
   } 
 
   .ingredientslist {
@@ -119,6 +121,7 @@
     text-align: left;
     display: inline-block;
     font-size: 40px;
+    position: absolute;
   }
 
 
