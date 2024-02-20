@@ -1,5 +1,102 @@
-    h1 {
-    font-size: 50px;
+.navbar{
+  position: absolute;
+  width: 754px;
+  height: 58px;
+  top: -1px;
+  left: 689px;
+  margin: 10px;
+}
+
+.step1{
+  left: 50%;
+  position: absolute;
+  width: 179px;
+  height: 58px;
+  top: 0%;
+  color: #3c1b05;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.step2{
+  left: 65%;
+  position: absolute;
+  width: 179px;
+  height: 58px;
+  top: 0;
+  color: #c8885e;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.step3{
+  left: 80%;
+  position: absolute;
+  width: 179px;
+  height: 58px;
+  top: 0;
+  color: #c8885e;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.step4{
+  left: 95%;
+  position: absolute;
+  width: 179px;
+  height: 58px;
+  top: 0;
+  color: #c8885e;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.step5{
+  left: 110%;
+  position: absolute;
+  width: 179px;
+  height: 58px;
+  top: 0;
+  color: #c8885e;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.notes{
+  left: 125%;
+  position: absolute;
+  width: 179px;
+  height: 58px;
+  top: 0;
+  color: #3c1b05;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+   
+   
+   h1 {
+    position: relative;
+    width: 227px;
+    height: 58px;
+    top: 95px;
+    left: 45%;
+    color: #3c1b05;
+    font-size: 24px;
+    letter-spacing: 0;
     font-family: Lilita One, serif;
     text-align: center;
     justify-content: center;
@@ -7,20 +104,12 @@
   }
 
   body {
-    background-image: url(../img/KITCHEN_.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #fef7ec;
   }
 
-  p {
-    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 15px;
-  }
 
   .listcontainter {
-    text-align: center; 
+    text-align: left;
   } 
 
   .ingredientslist {
@@ -32,35 +121,73 @@
     font-size: 40px;
   }
 
-  #yes-button {
-    background-color:black;  
-    color: white;
-    padding: 20px 40px; 
-    border: none; 
-    font-size: 16px; 
-    display: inline-block;
-    margin:10px; 
-
-}
 
 h2{
-  margin-top: 100px;
+  font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 24px;
+  width: 722px;
+  height: 58px;
+  top: 70%;
+  left: 30%;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+  color: #3c1b05;
 }
 
-#yes-button:hover {
-  background-color:powderblue;
+.group{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  height: 62px;
+  top: 80%;
+  left: 900px;
 }
 
-#no-button {
-  background-color:black;  
-  color: white;
-  padding: 20px 40px; 
-  border: none; 
-  font-size: 16px; 
-  display: inline-block; 
-  margin:10px; 
+.yesbutton{
+    background-color: #c8885e;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
 }
 
-#no-button:hover {
-  background-color:powderblue;
+
+.buttons{
+  position: absolute;
+  width: 37px;
+  height: 25px;
+  top: 18px;
+  left: 12px;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 0;
+}
+
+.group2{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  height: 62px;
+  top: 80%;
+  left: 800px;
+}
+
+.nobutton{
+  background-color: #9c9c9c6a;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.yesbutton:hover{
+    background-color:#97c1df;
+  }
+
+.nobutton:hover{
+  background-color: #3c1b05;
 }

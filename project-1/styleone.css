@@ -1,42 +1,155 @@
-    h1 {
-    font-size: 50px;
+  body{
+    background-color: #fef7ec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .backlink{
+    position: absolute;
+    width:auto;
+    height: auto;
+    top: 0%;
+    left: 0px;
+    font-size:13px;
+    font-weight: 400;
+    font-family: Lilita One, serif;
+    text-align: center;
+    letter-spacing: 0;
+    color: #3c1b05;
+    margin: 10px;
+  }
+
+  .bigtext {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 482px;
+    font-size: 24px;
     font-family: Lilita One, serif;
     text-align: center;
     justify-content: center;
-    min-height: 10px;
-    margin-top: 350px;
-    margin-bottom: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    color: #3c1b05;
   }
-
-  body {
-    background-image: url(../img/KITCHEN_.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  p {
-    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+  .minitext{
+    position: absolute;
+    color: #3c1b05;
+    font-size: 13px;
     text-align: center;
-    font-size: 15px;
-  }
-  a {
-    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
-    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    width: auto;
+    height: auto;
+    top: 900px;
+    font-weight: 400;
     justify-content: center;
   }
- .button {
-    background-color:black;  
-    color: white;
-    padding: 20px 40px; 
-    border: none; 
-    font-size: 16px; 
-    cursor: pointer;
+
+  .navbar{
+    position: absolute;
+    width: 754px;
+    height: 58px;
+    top: -1px;
+    left: 689px;
+    margin: 10px;
+  }
+  
+  .step1{
+    left: 50%;
+    position: absolute;
+    width: 179px;
+    height: 58px;
+    top: 0%;
+    color: #c8885e;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .step2{
+    left: 65%;
+    position: absolute;
+    width: 179px;
+    height: 58px;
+    top: 0;
+    color: #c8885e;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .step3{
+    left: 80%;
+    position: absolute;
+    width: 179px;
+    height: 58px;
+    top: 0;
+    color: #c8885e;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .step4{
+    left: 95%;
+    position: absolute;
+    width: 179px;
+    height: 58px;
+    top: 0;
+    color: #c8885e;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .step5{
+    left: 110%;
+    position: absolute;
+    width: 179px;
+    height: 58px;
+    top: 0;
+    color: #c8885e;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .notes{
+    left: 125%;
+    position: absolute;
+    width: 179px;
+    height: 58px;
+    top: 0;
+    color: #3c1b05;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .nextbutton{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 65%;
+    font-size: 13px; 
+    line-height: 50px;
+    text-align: center;
+    background-color: #c8885e;
+    border-radius: 30px;
+    justify-content: center;
     display: inline-block; 
-    margin: 150px;
-}
-.button:hover {
-  background-color:powderblue;
-}
-.buttontwo {
-  background-color:black;  
-}
+    cursor: pointer;
+  }
+  
+
+  .nextbutton:hover {
+    background-color:#97c1df;
+  }
