@@ -18,12 +18,26 @@
 }
 
 .step1 {
+  position: relative;
   color: #3c1b05;
   text-decoration: none;
   font-size: 13px;
   text-align: center;
-  letter-spacing: 0;
+}
+
+.mark{
+  position: absolute;
+  background-color: #97c1df;
+  width: 30px;
+  height:30px;
+  right: 6%;
+  bottom: 58%;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
   line-height: normal;
+  z-index: -1;
+  filter: blur(10px);
 }
 
 .notes {
@@ -40,24 +54,11 @@
   text-decoration: none;
 }
 
-.mark {
-  height: 40%;
-  position: absolute;
-  left:38.5%;
-  top: 15px;
-  border: #c8885e;
-  border-style: solid;
-    width: 40%;
-    max-width: 50px;
-    max-height: 50px;
-    border-radius: 50%;
-    z-index: -1;
-}
 
     
 h1 {
   position: relative;
-  width: 80px;
+  width: 250px;
   height: 58px;
   top: 80px;
   left: 47.5%;
@@ -75,14 +76,14 @@ body {
 }
 
 h2 {
-  font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 24px;
   height: 70px;
   width: 700px;
   position: absolute;
-  top: 90%;
-  right: -225px;
+  top: 92%;
+  right: -35%;
   line-height: auto;
   color: #3c1b05;
 }
@@ -92,7 +93,7 @@ h2 {
   height: 60px;
   height: 62px;
   top: 150%;
-  left: 200%;
+  left: 325%;
 }
 
 .yesbutton {
@@ -131,7 +132,7 @@ h2 {
   height: 60px;
   height: 62px;
   top: 150%;
-  right: 20%;
+  left: -50%;
 }
 
 .nobutton {
@@ -165,12 +166,12 @@ h2 {
 
 .checklist {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  grid-gap: 40px;
+  grid-gap: 10px 80px;
   justify-content: center;
 }
 
@@ -196,9 +197,10 @@ h2 {
 }
 
 .item-image {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #c8885e;
+  width: 125px;
+  height: 125px;
+  border: 2px solid #3c1b05;
+  border-radius: 50%;
 }
 
 .check:checked + .check-label .item-image {
@@ -211,13 +213,27 @@ h2 {
   display: block;
   text-align: center;
   margin-top: 5px;
+  margin-left: 4%;
 }
 
 
 
-@media only screen and (max-width: 700px) {
-  .bigtext {
-    font-size: 18px;
+@media only screen and (max-width: 800px) {
+  h1{
+    font-size: 24px;
+    position: absolute;
+    left: 41%;
+    width: 80px;
+    height: 58px;
+  }
+  h2 {
+    font-size: 20px;
+    position: absolute;
+    top: 95%;
+    width: 600px;
+    height: 58px;
+    right: -18%;
+
   }
 
   .navbar {
@@ -229,23 +245,69 @@ h2 {
     margin-right: 10px;
   }
 
-  .navbar div,
-  .notes {
-    margin: 2% 0;
-    margin-right: 10px;
-  }
+.mark{
+  position: absolute;
+  background-color: #c8885e;
+  width: 30px;
+  height:30px;
+  right: 6%;
+  top: 1%;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  line-height: normal;
+  z-index: -1;
+  filter: blur(10px);
 }
 
+.navbar div, .notes {
+  margin: 2% 0;
+  margin-right: 10px;
+}
+}
+
+
 @media only screen and (max-width: 600px) {
-  .bigtext {
+
+  h1{
+    font-size: 24px;
+    position: absolute;
+    left: 41%;
+    width: 80px;
+    height: 58px;
+  }
+  h2 {
     font-size: 18px;
+    position: absolute;
+    top: 95%;
+    width: 600px;
+    height: 58px;
+    right: -18%;
+
   }
 
-.navbar {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: auto;
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.mark{
+  position: absolute;
+  background-color: #c8885e;
+  width: 30px;
+  height:30px;
+  right: 6%;
+  top: 1%;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  line-height: normal;
+  z-index: -1;
+  filter: blur(10px);
 }
 
 .navbar div, .notes {
