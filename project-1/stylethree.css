@@ -1,13 +1,43 @@
-    h1 {
+body{
+  background-color: #fef7ec;
+}
+.navbar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 58px;
+  margin-top: 20px;
+  max-width: 100%;
+  color: #c8885e;
+}
+
+.navbar div, .notes {
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.step1 {
+    color: #3c1b05;
+}
+
+.step2 {
+  color: #3c1b05;
+}
+
+h1 {
     font-size: 24px;
     font-family: Lilita One, serif;
     text-align: center;
     justify-content: center;
+    width: 30%;
     min-height: 10px;
-    margin-top: 350px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    position: absolute;
+    left: 36%;
+    top: 40%;
   }
 
   body {
@@ -32,92 +62,3 @@
   .nextbutton:hover {
     background-color:#97c1df;
   }
-
-
-  .navbar{
-    position: absolute;
-    width: 754px;
-    height: 58px;
-    top: -1px;
-    left: 689px;
-    margin: 10px;
-  }
-  
-  .step1{
-    left: 50%;
-    position: absolute;
-    width: 179px;
-    height: 58px;
-    top: 0%;
-    color: #3c1b05;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .step2{
-    left: 65%;
-    position: absolute;
-    width: 179px;
-    height: 58px;
-    top: 0;
-    color: #3c1b05;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .step3{
-    left: 80%;
-    position: absolute;
-    width: 179px;
-    height: 58px;
-    top: 0;
-    color: #3c1b05;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .step4{
-    left: 95%;
-    position: absolute;
-    width: 179px;
-    height: 58px;
-    top: 0;
-    color: #c8885e;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .step5{
-    left: 110%;
-    position: absolute;
-    width: 179px;
-    height: 58px;
-    top: 0;
-    color: #c8885e;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .notes{
-    left: 125%;
-    position: absolute;
-    width: 179px;
-    height: 58px;
-    top: 0;
-    color: #3c1b05;
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  

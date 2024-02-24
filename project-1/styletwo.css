@@ -1,3 +1,6 @@
+.container{
+  overflow: hidden;
+}
 .navbar {
   position: absolute;
   left: 50%;
@@ -26,11 +29,11 @@
 }
 
 .mark{
-  position: absolute;
-  background-color: #97c1df;
+  position: fixed;
+  background-color: #c8885e;
   width: 30px;
   height:30px;
-  right: 6%;
+  right: 94%;
   bottom: 58%;
   max-width: 50px;
   max-height: 50px;
@@ -57,11 +60,11 @@
 
     
 h1 {
-  position: relative;
+  position: absolute;
   width: 250px;
   height: 58px;
   top: 80px;
-  left: 47.5%;
+  left: 44%;
   color: #3c1b05;
   font-size: 24px;
   letter-spacing: 0;
@@ -189,13 +192,6 @@ h2 {
   display: none;
 }
 
-.check-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
 .item-image {
   width: 125px;
   height: 125px;
@@ -301,7 +297,7 @@ h2 {
   width: 30px;
   height:30px;
   right: 6%;
-  top: 1%;
+  top: 10%;
   max-width: 50px;
   max-height: 50px;
   border-radius: 50%;

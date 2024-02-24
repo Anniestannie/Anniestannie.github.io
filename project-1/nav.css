@@ -1,0 +1,25 @@
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 58px;
+    margin-top: 20px;
+    max-width: 100%;
+    color: #c8885e;
+  }
+  
+  .navbar div, .notes {
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .notes {
+    color: #3c1b05;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
