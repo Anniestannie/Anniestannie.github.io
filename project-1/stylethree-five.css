@@ -56,65 +56,19 @@ p{
   line-height: normal;
 }
 
-.color-scale {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1000px;
-  max-width: 1000px;
-}
-
-.color-block {
-  position: relative;
-  left: 40%;
-  top: 210px;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #000;
-  border-radius: 60%;
-  margin: 5px;
-  text-align: center;
-  line-height: 50px;
-}
-
-label{
- font-family: Arial, Helvetica, sans-serif;
-  color: #3c1b05;
-  font-size: 13px;
-  line-height: 150px;
+.mixing{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  top: 20%;
+  left: 36%;
 }
 
 span{
-  color: #fef7ec;
+  font-weight: bold;
 }
 
-.popup-info {
-  display: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #3c1b05;
-  font-size: 13px;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-}
-
-.color-block:hover .popup-info {
-  display: block;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"]:checked + .color-block .popup-info {
-  display: block;
-}
-
-
-
-
-.nextbutton{
+  .nextbutton{
     position: absolute;
     width: 60px;
     height: 60px;

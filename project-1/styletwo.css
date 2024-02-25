@@ -169,12 +169,12 @@ h2 {
 
 .checklist {
   position: absolute;
-  top: 55%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  grid-gap: 10px 80px;
+  grid-gap: 35px 80px;
   justify-content: center;
 }
 
@@ -204,6 +204,7 @@ h2 {
 }
 
 .label {
+  position: absolute;
   font-size: 13px;
   width: 100px;
   display: block;
