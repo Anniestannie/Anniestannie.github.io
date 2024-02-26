@@ -4,6 +4,10 @@
     flex-direction: row;
     justify-content: center;
   }
+  
+.notes{
+  text-decoration: none;
+}
 
   .backlink{
     position: absolute;
@@ -24,8 +28,8 @@
     position: absolute;
     width: 20%;
     height: auto;
-    top: 550px;
-    font-size: 24px;
+    top: 525px;
+    font-size: 32px;
     font-family: Lilita One, serif;
     text-align: center;
     justify-content: center;
@@ -37,7 +41,7 @@
   .minitext{
     position: absolute;
     color: #3c1b05;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
@@ -84,17 +88,22 @@
     top: 30%;
   }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
     .bigtext {
-      font-size: 24px;
+      font-size: 30px;
       
     }
   
     .minitext {
-      font-size: 12px;
+      font-size: 14px;
     }
     .circle {
       filter: blur(150px);
+    }
+
+    .nextbutton{
+      top: 75%;
+  
     }
     .navbar {
       flex-direction: row;
@@ -111,21 +120,15 @@
       margin-right: 10px;
     }
   }
-
-  @media only screen and (max-width: 1000px) {
-    .bigtext {
-      font-size: 20px;
-      
-    }
-  }
   
   @media only screen and (max-width: 600px) {
     .bigtext {
-      font-size: 18px;
+      width: auto;
+      font-size: 30px;
     }
   
     .minitext {
-      font-size: 12px;
+      font-size: 14px;
     }
     .circle{
       filter: blur(150px); 
@@ -141,5 +144,8 @@
     margin: 2% 0;
     margin-right: 10px;
   }
+.nextbutton{
+  top: 69%;
 
+}
   }

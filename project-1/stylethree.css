@@ -22,6 +22,7 @@ body{
 
 .step1 {
     color: #3c1b05;
+    text-decoration: none;
 }
 
 .step2 {
@@ -38,6 +39,35 @@ body{
   outline-color: #c8885e;
 }
 
+@keyframes fadeInOut {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.circle {
+  position: fixed;
+  height: 40%;
+  width: 40%;
+  max-width: 600px;
+  max-height: 600px;
+  background-color: #c8885e;
+  opacity: 0%; 
+  border-radius: 50%;
+  filter: blur(202px);
+  transform: translateX(-50%);
+  z-index: -1;
+  top: 30%;
+  left: 50%;
+  animation: fadeInOut 6s ease infinite;
+}
+
 h1 {
   position: absolute;
   width: 250px;
@@ -45,7 +75,7 @@ h1 {
   top: 80px;
   left: 44%;
   color: #3c1b05;
-  font-size: 24px;
+  font-size: 32px;
   letter-spacing: 0;
   font-family: Lilita One, serif;
   text-align: center;
@@ -59,7 +89,8 @@ p{
   height: 500px;
   top: 40%;
   left: 30%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+  font-weight: 500;
   color: #3c1b05;
   font-size: 18px;
   letter-spacing: 0;
@@ -94,8 +125,9 @@ span{
   
 
   .nextbutton:hover {
-    background-color:#97c1df;
+    background-color:#FF8D8D;
   }
+
 
   @media only screen and (max-width: 1000px) {
     h1{

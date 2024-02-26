@@ -21,18 +21,22 @@ body{
   }
   
   .step1 {
+    text-decoration: none;
       color: #3c1b05;
   }
   
   .step2 {
+    text-decoration: none;
     color: #3c1b05;
   }
   
   .step3 {
+    text-decoration: none;
     color: #3c1b05;
   }
   
   .step4 {
+    text-decoration: none;
     color: #3c1b05;
   }
   
@@ -49,12 +53,12 @@ body{
   
   h1 {
     position: absolute;
-    width: 250px;
+    width: 350px;
     height: 58px;
     top: 80px;
-    left: 44%;
+    left: 41%;
     color: #3c1b05;
-    font-size: 24px;
+    font-size: 32px;
     letter-spacing: 0;
     font-family: Lilita One, serif;
     text-align: center;
@@ -66,12 +70,13 @@ body{
     position: absolute;
     width: 550px;
     height: 58px;
-    top: 33%;
+    top: 36%;
     left: 35%;
     color: #3c1b05;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 0;
-    font-family: Lilita One, serif;
+    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+  font-weight: 500;
     text-align: center;
     justify-content: center;
   }
@@ -99,9 +104,10 @@ body{
   }
   
   label{
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+    font-weight: 350;
     color: #3c1b05;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 150px;
   }
   
@@ -111,9 +117,10 @@ body{
   
   .popup-info {
     display: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+    font-weight: 300;
     color: #3c1b05;
-    font-size: 13px;
+    font-size: 16px;
     position: absolute;
     top: 100%;
     left: 0;
@@ -134,8 +141,8 @@ body{
   
   
   .yesbutton {
+    display: inline-block;
     background-color: #c8885e;
-    position: absolute;
     width: 60px;
     height: 60px;
     border-radius: 30px;
@@ -147,15 +154,16 @@ body{
     font-family: Lilita One, serif;
     font-size: 13px; 
     letter-spacing: 1px;
+    position: relative;
+    left: 15px;
     text-align: center;
   }
   
   
   .buttons {
-    position: absolute;
     width: 37px;
     height: 25px;
-    top: 18px;
+    top: 20px;
     left: 12px;
     font-weight: 400;
     font-size: 13px;
@@ -164,22 +172,25 @@ body{
     line-height: 0;
   }
   
-  .group2 {
-    position: relative;
-    height: 60px;
-    height: 62px;
-    top: 450px;
-    left: 44%;
-  }
-  
 
   .group {
-    position: relative;
-    height: 60px;
-    height: 62px;
-    top: 512px;
-    left: 55%;
+    position: absolute;
+    bottom: 50px;
+    left: 58%;
     z-index: 7;
+    transform: translate(-50%, -50%);
+  }
+
+  .group2 {
+    position: absolute;
+    bottom: 50px;
+    left: 46%;
+    z-index: 7;
+    transform: translate(-50%, -50%);
+  }
+
+  .notesbutton{
+    display: inline-block;
   }
   
   .notesbutton a {
@@ -189,17 +200,12 @@ body{
     font-size: 13px; 
     letter-spacing: 1px;
     text-align: center;
+    position: relative;
   }
   
   .yesbutton:hover {
-    background-color: #97c1df;
-  }
-
-  .yesbutton a:hover {
-    color: white;
-  }
-
-  
+    background-color: #FF8D8D;
+  }  
 
   
     @media only screen and (max-width: 1000px) {
@@ -302,12 +308,5 @@ body{
         top: 350px;
         
  }
- .group2{
-    top: 350px;
-    left: 190px;
- }
- .group{
-    top: 412px;
-    left: 380px;
- }
+
     }

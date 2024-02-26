@@ -21,6 +21,36 @@ body{
   text-decoration: none;
 }
 
+.notes{
+  text-decoration: none;
+}
+
+.step1 {
+  text-decoration: none;
+    color: #3c1b05;
+}
+
+.step2 {
+  text-decoration: none;
+  color: #3c1b05;
+}
+
+.step3 {
+  text-decoration: none;
+  color: #3c1b05;
+}
+
+.step4 {
+  text-decoration: none;
+  color: #3c1b05;
+}
+
+.step5 {
+  text-decoration: none;
+  color: #3c1b05;
+}
+
+
 .notes {
   color: #3c1b05;
   position: relative;
@@ -42,7 +72,7 @@ h1 {
   top: 80px;
   left: 44%;
   color: #3c1b05;
-  font-size: 24px;
+  font-size: 32px;
   letter-spacing: 0;
   font-family: Lilita One, serif;
   text-align: center;
@@ -51,11 +81,14 @@ h1 {
 }
 
 p, ul{
-  font-family: Arial, Helvetica, sans-serif;
+  color: #3c1b05;
+  font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+  font-weight: 350;
   position: relative;
   top: 100px;
   left: 620px;
   width: 600px;
+  line-height: 120%;
   height: 100%;
 }
 
@@ -64,10 +97,22 @@ p, ul{
 }
 
 .bold{
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: underline;
 }
 
+.nextbutton{
+  position: relative;
+  left: 52%;
+  top: 150px;
+  transform: translate(-50%,-50%);
+}
+
+span{
+  position: relative;
+  top: 100px;
+  color: #fef7ec;
+}
 
 @media only screen and (max-width: 1000px) {
   h1 {

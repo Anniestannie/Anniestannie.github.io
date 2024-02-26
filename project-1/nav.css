@@ -10,6 +10,7 @@
   }
   
   .navbar div, .notes {
+    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
     font-size: 13px;
     text-align: center;
     text-decoration: none;
