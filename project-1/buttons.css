@@ -52,10 +52,27 @@
   background-color: #97c1df;
 }
 
-.nobutton:hover {
+.notesbutton:hover {
   background-color: #3c1b05;
 }
 
-.nobutton a:hover {
+.notesbutton a:hover {
   color: white;
+}
+
+.notesbutton {
+  background-color: #9c9c9c6a;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.notesbutton a {
+  color: #3c1b05;
+  text-decoration: none;
+  font-family: Lilita One, serif;
+  font-size: 13px; 
+  letter-spacing: 1px;
+  text-align: center;
 }
