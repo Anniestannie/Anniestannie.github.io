@@ -26,22 +26,13 @@
   text-decoration: none;
   font-size: 13px;
   text-align: center;
+  outline-color: #c8885e;
+  border: none;
+  border-radius: 30pt;
+  box-shadow: 0 0 10pt 4pt  #c8885e;
+  outline-color: #c8885e;
 }
 
-.mark{
-  position: fixed;
-  background-color: #c8885e;
-  width: 30px;
-  height:30px;
-  right: 94%;
-  bottom: 58%;
-  max-width: 50px;
-  max-height: 50px;
-  border-radius: 50%;
-  line-height: normal;
-  z-index: -1;
-  filter: blur(10px);
-}
 
 .notes {
   color: #3c1b05;
@@ -242,20 +233,6 @@ h2 {
     margin-right: 10px;
   }
 
-.mark{
-  position: absolute;
-  background-color: #c8885e;
-  width: 30px;
-  height:30px;
-  right: 6%;
-  top: 1%;
-  max-width: 50px;
-  max-height: 50px;
-  border-radius: 50%;
-  line-height: normal;
-  z-index: -1;
-  filter: blur(10px);
-}
 
 .navbar div, .notes {
   margin: 2% 0;
@@ -291,21 +268,6 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
   }
-
-.mark{
-  position: absolute;
-  background-color: #c8885e;
-  width: 30px;
-  height:30px;
-  right: 6%;
-  top: 10%;
-  max-width: 50px;
-  max-height: 50px;
-  border-radius: 50%;
-  line-height: normal;
-  z-index: -1;
-  filter: blur(10px);
-}
 
 .navbar div, .notes {
   margin: 2% 0;

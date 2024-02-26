@@ -26,6 +26,16 @@ body{
 
 .step2 {
   color: #3c1b05;
+  position: relative;
+  color: #3c1b05;
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+  outline-color: #c8885e;
+  border: none;
+  border-radius: 30pt;
+  box-shadow: 0 0 10pt 4pt  #c8885e;
+  outline-color: #c8885e;
 }
 
 h1 {
