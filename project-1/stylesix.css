@@ -161,13 +161,10 @@ span{
   }
   
 
-  .nextbutton:hover {
-    background-color:#97c1df;
-  }
 
   @media only screen and (max-width: 1000px) {
     h1{
-      font: 20px;
+      font: 30px;
       width: auto;
       position: absolute;
       left: 38%;
@@ -182,7 +179,7 @@ span{
   
   @media only screen and (max-width: 600px) {
 h1{
-  font: 20px;
+  font: 30px;
   width: auto;
 }
 

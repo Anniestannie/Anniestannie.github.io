@@ -236,7 +236,7 @@ body{
 
     @media only screen and (max-width: 800px) {
         h1{
-          font: 20px;
+          font: 30px;
           width: auto;
         }
         
@@ -244,6 +244,7 @@ body{
           position: absolute;
           left: 30%;
           width: 50%;
+          top: 260px;
          }
          .navbar {
             flex-direction: row;
@@ -267,15 +268,28 @@ body{
        .color-block {
               position: relative;
               left: -10%;
-              top: 350px;
+              top: 250px;
               
+       }
+
+       .group {
+        position: absolute;
+        bottom: -180px;
+        left: 58%;
+        z-index: 7;
+       }
+       
+       .group2{
+        position: absolute;
+        bottom: -180px;
        }
           }
     
     @media only screen and (max-width: 600px) {
   h1{
-    font: 20px;
+    font: 30px;
     width: auto;
+    left: 30%;
   }
   
   h2{
@@ -305,8 +319,21 @@ body{
  .color-block {
         position: relative;
         left: -10%;
-        top: 350px;
+        top: 250px;
         
+ }
+
+ .group {
+  position: absolute;
+  bottom: -180px;
+  left: 73%;
+  z-index: 7;
+ }
+ 
+ .group2{
+  position: absolute;
+  bottom: -180px;
+  left: 38%;
  }
 
     }

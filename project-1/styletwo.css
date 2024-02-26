@@ -163,7 +163,7 @@ h2 {
 }
 
 .yesbutton a:hover {
-  color: white;
+color: white;
 }
 
 
@@ -274,6 +274,10 @@ h2 {
     height: 58px;
     right: -18%;
 
+  }
+
+  .shopping{
+    left: 24%;
   }
 
   .navbar {
