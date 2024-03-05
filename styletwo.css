@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .letter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cell {
+    width: 30px;
+    height: 30px;
+  }
+
+  .fill {
+    background-color: midnightblue;
+    transition: clip-path 3s ease-in-out;
+  }
+
+  .fill:hover {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
