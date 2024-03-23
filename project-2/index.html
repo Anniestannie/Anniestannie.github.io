@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam</title>
+    <style>
+        #video {
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <div class="topbar">
+        <h2>Make Me Cute ♥</h2>
+    </div>
+    <h1>Get started with Make Me Cute</h1>
+    <p>Press the button to access your camera!</p>
+    <button id="startBtn">Start Webcam</button>
+    <video id="video" style="display:none;" autoplay></video>
+    <button id="captureBtn" style="display:none;">Capture Photo</button>
+    <canvas id="canvas"> </canvas>
+    <div id="gallery-view">
+        <button id="prev">
+          PREV
+        </button>
+        <img data-index="0" src="" alt="current viewed image">
+        <button id="next">
+          NEXT
+        </button>
+      </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
