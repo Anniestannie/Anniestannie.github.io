@@ -4,55 +4,31 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(105, 105, 105);
-  }
-.page-header{
-    height: 100vh;
-    background-image: url("./assets/noisy-background.jpg");
-    z-index: -6;
-}
-
-.page-header:after {
-    /* content is required when using :after */
-    content: "";
-    /* The animation */
-    animation: grain 8s steps(10) infinite;
-    /* The grainy image */
-    background-image: url("/path/to/grainy/image.jpg");
-    /* Specify a height and width above and beyond the page header for movement */
-    height: 300%;
-    width: 300%;
-    /* We're using opacity in place of a transparent image */
-    opacity: 0.3;
-    /* We'll need this when the animation kicks in to hold the position of the texture */
-    position: fixed;
-  }
-
-  @keyframes grain {
-    0%, 100% { transform:translate(0, 0) }
-    10% { transform:translate(-5%, -10%) }
-    20% { transform:translate(-15%, 5%) }
-    30% { transform:translate(7%, -25%) }
-    40% { transform:translate(-5%, 25%) }
-    50% { transform:translate(-15%, 10%) }
-    60% { transform:translate(15%, 0%) }
-    70% { transform:translate(0%, 15%) }
-    80% { transform:translate(3%, 35%) }
-    90% { transform:translate(-10%, 10%) }
+    background-image: url("./assets/SAM_0140-ezgif.com-video-to-gif-converter.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -7;
+    opacity: 0.99999;
   }
 
   
 .title{
+    width: fit-content;
     font-size: 20px;
+    font-family: Caveat;
     text-align: center; /* Center the text */
-    font-weight: bold; /* Make the font bold */
+    font-weight: bolder; /* Make the font bold */
     margin-top: 250px; /* Add some space from the top */
     margin-bottom: 200px;
     color: rgb(0, 0, 0);
-    opacity: 10%;
+    opacity: 0.4;
     z-index: 7;
 }
+
+
 .photo-album{
         position: fixed;
+        z-index: 7;
  }
 .image-container {
     position: fixed;
@@ -74,13 +50,17 @@ body {
 }
 
 .label{
+    font-family: Caveat;
     font-weight: bold;
+    font-style: 20px;
 }
 .date{
     width: 100px;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: Caveat;
+    font-size: 15px;
 }
 .date:hover + .image-container {
     bottom: 50%;
@@ -90,6 +70,7 @@ body {
     width: 100%;
     height: auto;
 }
+
 
 @keyframes move {
     100% {
