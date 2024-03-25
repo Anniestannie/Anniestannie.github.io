@@ -4,11 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(105, 105, 105);
-    background-image: url("./assets/SAM_0140-ezgif.com-video-to-gif-converter.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -7;
-    opacity: 0.99999;
   }
 
   
@@ -16,19 +11,21 @@ body {
     width: fit-content;
     font-size: 20px;
     font-family: Caveat;
-    text-align: center; /* Center the text */
+    text-align: center;/* Center the text */
     font-weight: bolder; /* Make the font bold */
-    margin-top: 250px; /* Add some space from the top */
-    margin-bottom: 200px;
+    margin-top: 50px; /* Add some space from the top */
+    margin-bottom: 50px;
     color: rgb(0, 0, 0);
     opacity: 0.4;
     z-index: 7;
 }
-
+.dots{
+    opacity: 0;
+}
 
 .photo-album{
         position: fixed;
-        z-index: 7;
+        top:500px;
  }
 .image-container {
     position: fixed;
@@ -49,18 +46,34 @@ body {
     bottom: -200px; /* Slide out to the top */
 }
 
+.image{
+    border-radius: 10px;
+    border-style: solid;
+    z-index: 7;
+}
 .label{
+    position: relative;
+    right: 50%;
+    height: auto;
+    width: auto;
     font-family: Caveat;
     font-weight: bold;
     font-style: 20px;
+    margin-top: 25px;
+    text-align: center;
+
 }
 .date{
-    width: 100px;
-    height: auto;
+    position: relative;
+    right: 10%;
+    width: 200px;
+    height: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Caveat;
-    font-size: 15px;
+    font-size: 20px;
+    text-align: center;
+    z-index: 1;
 }
 .date:hover + .image-container {
     bottom: 50%;
