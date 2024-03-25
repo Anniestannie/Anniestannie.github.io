@@ -14,7 +14,7 @@ body {
     text-align: center;/* Center the text */
     font-weight: bolder; /* Make the font bold */
     margin-top: 50px; /* Add some space from the top */
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color: rgb(0, 0, 0);
     opacity: 0.4;
     z-index: 7;
@@ -29,7 +29,7 @@ body {
  }
 .image-container {
     position: fixed;
-    bottom: -500px; /* Initially position it off-screen at the bottom */
+    bottom: -600px; /* Initially position it off-screen at the bottom */
     left: 50%;
     transform: translateX(-50%);
     width: 350px;
