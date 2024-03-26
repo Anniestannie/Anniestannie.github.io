@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(105, 105, 105);
+    cursor: url(./assets/Aerogel\ Norm.cur), auto; 
   }
 
   
@@ -13,23 +14,28 @@ body {
     font-family: Caveat;
     text-align: center;/* Center the text */
     font-weight: bolder; /* Make the font bold */
-    margin-top: 50px; /* Add some space from the top */
+    margin-top: 15px; /* Add some space from the top */
     margin-bottom: 25px;
     color: rgb(0, 0, 0);
     opacity: 0.4;
     z-index: 7;
 }
+
+.title:hover{
+    opacity: 0.05;
+}
+
 .dots{
     opacity: 0;
 }
 
 .photo-album{
         position: fixed;
-        top:500px;
+        top:325px;
  }
 .image-container {
     position: fixed;
-    bottom: -600px; /* Initially position it off-screen at the bottom */
+    top: 70px; /* Initially position it off-screen at the bottom */
     left: 50%;
     transform: translateX(-50%);
     width: 350px;
@@ -75,10 +81,13 @@ body {
     text-align: center;
     z-index: 1;
 }
-.date:hover + .image-container {
-    bottom: 50%;
-}
 
+.date:hover{
+    text-decoration:underline;
+    color: rgba(213, 255, 252, 0.743);
+    opacity: 0.5;
+    cursor: url(./assets/Aerogel\ Link.cur), auto;
+}
 .image-container .image {
     width: 100%;
     height: auto;
@@ -119,7 +128,7 @@ body {
 
 
 .background span:nth-child(0) {
-    color: #f2f7cd;
+    color: #cdf1f7;
     top: 48%;
     left: 75%;
     animation-duration: 65s;
@@ -209,7 +218,7 @@ body {
     box-shadow: -100vmin 0 13.232572852318489vmin currentColor;
 }
 .background span:nth-child(10) {
-    color: #b9a09f;
+    color: #c7e9ed;
     top: 15%;
     left: 72%;
     animation-duration: 337s;
