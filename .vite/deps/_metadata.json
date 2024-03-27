@@ -2,7 +2,30 @@
   "hash": "794f199c",
   "configHash": "e61fdf09",
   "lockfileHash": "e3b0c442",
-  "browserHash": "bda78c68",
-  "optimized": {},
-  "chunks": {}
+  "browserHash": "907c7602",
+  "optimized": {
+    "three": {
+      "src": "../../Senior_Project/node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "341ab0f1",
+      "needsInterop": false
+    },
+    "three/addons/loaders/GLTFLoader.js": {
+      "src": "../../Senior_Project/node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+      "file": "three_addons_loaders_GLTFLoader__js.js",
+      "fileHash": "d767c2ba",
+      "needsInterop": false
+    },
+    "three/addons/controls/DragControls.js": {
+      "src": "../../Senior_Project/node_modules/three/examples/jsm/controls/DragControls.js",
+      "file": "three_addons_controls_DragControls__js.js",
+      "fileHash": "65086513",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HM4QSEEG": {
+      "file": "chunk-HM4QSEEG.js"
+    }
+  }
 }
