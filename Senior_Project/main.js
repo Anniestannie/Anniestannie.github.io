@@ -18,7 +18,7 @@ var model; // this is the glTF model
 // Load a glTF resource
 loader.load(
 	// resource URL
-	'./Senior_Project/public/Public/Day_20.glb',
+	'/Senior_Project/public/Public/Day_20.glb',
 	// called when the resource is loaded
 	function (gltf) {
         model = gltf.scene;
