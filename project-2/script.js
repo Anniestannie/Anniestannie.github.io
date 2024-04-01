@@ -39,3 +39,25 @@ document.addEventListener("DOMContentLoaded", function(){
         const data = canvas.toDataURL('image/png');
     }
 });
+
+function showLoadingScreen() {
+    document.getElementById('overlay').style.display = 'block';
+}
+
+// Event listener for the "Capture Photo" button
+document.getElementById('captureBtn').addEventListener('click', function() {
+    // Show the loading screen with text input
+    showLoadingScreen();
+});
+
+// Event listener for the "Apply Filters" button
+document.getElementById('applyFiltersBtn').addEventListener('click', function() {
+    // Get the user input from the text input field
+    let cuteLevel = document.getElementById('cuteLevelInput').value;
+    // Apply filters based on the user input (you can implement this logic)
+    console.log('Cute level:', cuteLevel);
+    // Hide the loading screen after processing
+    document.getElementById('overlay').style.display = 'none';
+ 
+    window.location.href = 'process_photo.html'+ encodeURIComponent(cuteLevel)
+});
