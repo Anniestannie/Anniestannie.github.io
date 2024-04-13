@@ -3,44 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webcam</title>
-    <style>
-        #video {
-            width: 50%;
-            height: 50%;
-        }
-    </style>
+    <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+
 </head>
 <body>
-    
-    <div class="topbar">
+    <header>
+    <div class="logo-bar">
         <h2>Make Me Cute ♥</h2>
     </div>
-    <h1>Get started with Make Me Cute</h1>
-    <p>Press the button to access your camera!</p>
-    <button id="startBtn">Start Webcam</button>
-    <video id="video" style="display:none;" autoplay></video>
-    <button id="captureBtn" style="display:none;">Capture Photo</button>
-    <canvas id="canvas"> </canvas>
-    <div id="gallery-view">
-        <button id="prev">
-          PREV
-        </button>
-        <img data-index="0" src="" alt="current viewed image">
-        <button id="next">
-          NEXT
-        </button>
-      </div>
-      <div id="overlay">
-        <div id="inputContainer">
-          <p class="inputText">How cute do you want us to make you?</p>
-          <input type="text" id="cuteLevelInput" placeholder="Enter a number">
-          <button id="applyFiltersBtn">Apply Filters</button>
-      </div>
-  </div>
+</header>
+    <main>
+        <video id="webcam-video" autoplay></video>
+        <img id="overlay-image" src="./assets/backgroundoverlay.jpg" alt="Overlay Image" style="display: none;"> 
+        <canvas id="photo-canvas"></canvas>
 
+        <div class="filter-controls">
+            <label for="saturation">Saturation:</label>
+            <input type="range" id="cam-saturation" min="0" max="4" value="2">
 
-    <script src="./script.js"></script>
+            <label for="stickers">Stickers:</label>
+             <input type="range" id="stickers" min="0" max="20" value="0"> 
+
+            <label for="overlay-opacity">Overlay Opacity:</label>
+        <input type="range" id="overlay-opacity" min="0" max="100" value="0">
+
+        <label for="cute-filter">Cute Filter:</label>
+        <input type="range" id="cute-filter" min="0" max="5" value="0"> 
+        </div>
+
+        <img id="cute-filter-image-container" src="./assets/cat1.png">
+
+        <button id="take-photo">Take Photo</button>
+    </main>
+
+    <script src="./new.js"></script> 
 </body>
 </html>
