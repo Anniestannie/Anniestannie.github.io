@@ -135,7 +135,6 @@ h2{
     flex-direction: column; 
     z-index: 8;
     box-shadow: 2px 2px 2cap rgba(255, 192, 203, 0.8); 
-    outline: 3px solid rgba(255, 255, 255, 0.6);
 }
 
 .filter-controls input[type="range"] {
@@ -183,7 +182,6 @@ h2{
     border-radius: 15px; 
     z-index: 9;  
     box-shadow: 2px 2px 2cap rgba(255, 192, 203, 0.8); 
-    outline: 3px solid rgba(255, 255, 255, 0.6);
 }
 
 .reminder-gif {
