@@ -191,3 +191,4 @@ let filterControls = document.querySelector('.filter-controls');
 closeButtonTwo.addEventListener('click', () => {
     filterControls.style.display = 'none';
 });
+
