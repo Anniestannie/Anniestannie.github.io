@@ -6,11 +6,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="loadingscreen">
-        <p class="titlename"></p>
-        <p class="loading">loading</p>
-        <button class="startbutton">press to start</button>
+    <div id="loadingscreen">
+        <p class="titlename">Heartscapes: digital diary</p>
+        <div id="dateHere"></div>
+        <div id="timeHere"></div>
+        <p class="loading">loading...</p>
+        <button id="startbutton">press to start</button>
     </div>
+    <div id="instructionScreen" class="overlay">
+     <di class="instruction-box">
+        <button id="closeInstructions">X</button> 
+        <h2 class="title">Instructions to navigate Heartscapes</h2>
+        <ul>
+            <li>Pinch to zoom</li>
+            <li>Two fingers to pan</li>
+            <li>Click to rotate</li>
+        </ul> 
+        </di>
+    </div>
+
 
     <!-- clock and date -->
 
