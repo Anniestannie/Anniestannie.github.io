@@ -1,5 +1,18 @@
 canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
+    width: 1000px;  
+    height: 1000px; 
+    object-fit: cover; 
+    z-index: 1;
+}
+
+.loadingscreen{
+    z-index: 5;
+}
+
+.title{
+    font-size: large;
+}
+
+.startbutton{
+    border-radius: 30px;
 }
