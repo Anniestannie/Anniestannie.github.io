@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMeCute</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+  <script type="module" crossorigin src="/assets/project2-DRrY5OZT.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/assets/project2-zPcPiv_c.css">
+</head>
+<body>
+    <header>
+    <div class="logo-bar">
+        <h2>Make Me Cute ♥</h2>
+    </div>
+</header>
+    <main>
+        <video id="webcam-video" autoplay></video>
+        <img id="photo-overlay" src="/assets/photooverlays-01-CPdxcouT.png" style="display: none;">
+        <img id="anime-eyes-image" src="/assets/AnimeEyes-03-C6lCDvtK.png" style="display: none;">
+        <img id="accessories-image" src="/assets/accessories-01-D2_EIkyz.png" style="display: none;">
+        <img id="blush-image" src="/assets/blush-15-Cm5IuCSi.png" style="display: none;">
+        <canvas id="photo-canvas"></canvas>
+
+        <div class="filter-controls">
+        <span class="close-button-two">X</span> 
+        <label for="anime-eyes">Eyes:</label>
+        <input type="range" id="anime-eyes-range" min="0" max="5" value="0">
+    
+        <label for="blush-filter">Blush:</label>
+        <input type="range" id="blush-range" min="0" max="4" value="0"> 
+    
+        <label for="accessories">Accessories:</label>
+        <input type="range" id="Accessories-range" min="0" max="8" value="0"> 
+
+        <label for="overlay-select">Overlay:</label>
+        <input type="range" id="overlay-range" min="0" max="6" value="0">
+
+        <label for="saturation">Saturation:</label>
+        <input type="range" id="cam-saturation" min="0" max="4" value="2">
+
+        <label for="stickers">Stickers:</label>
+        <input type="range" id="stickers" min="0" max="20" value="0"> 
+        </div> 
+
+        <div class="reminder-container">
+            <div class="reminder">
+            <img src="/assets/giphy-BlJ1TwEz.gif" class="reminder-gif">
+            <span class="close-button">X</span> 
+            <p>♥ Take a screenshot ♥</p> 
+            <p>Ctrl + ⇧ Shift + P (Windows) or <br> ⌘ Command + ⇧ Shift + 3 (Mac)</p>
+        </div>
+         </div>
+    </main> 
+</body>
+</html>
