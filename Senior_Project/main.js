@@ -66,3 +66,13 @@ loadingScreen.addEventListener('click', function() {
 closeButton.addEventListener('click', function() {
    instructionScreen.style.display = 'none';
 });
+
+
+
+function hideLoadingText() {
+  const loadingText = document.querySelector('.loading');
+  loadingText.style.display = 'none';
+}
+
+
+setTimeout(hideLoadingText, 5000); 

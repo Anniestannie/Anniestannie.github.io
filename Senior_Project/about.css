@@ -1,17 +1,25 @@
 body {
     background-color: black; 
-    color: white;          
+    color: white;     
+    font-family: rubik;    
+}
+
+.poster{
+    height: 500px;
+    width: 500px;
+    margin-bottom: 40px;
 }
 
 .about-intro {
     position: relative; 
-    top: 250px;  
-    text-align: center;   
+    text-align: center;  
+    top: 100px;   
 }
 
 .about-intro h1 {
-    font-size: 2.5em;        
-    margin-bottom: 50px;    
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 30px;
 }
 
 .about-intro p {

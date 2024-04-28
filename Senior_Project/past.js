@@ -2,7 +2,7 @@ let gridContainer = document.querySelector('.grid-container');
 let gridItems = document.querySelectorAll('.grid-item');
 
 function adjustGrid() {
-    const maxRows = 5;
+    const maxRows = 2;
     let currentRow = 0;
 
     for (let i = 0; i < gridItems.length; i++) {

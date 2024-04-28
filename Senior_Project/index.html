@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <title>Heartscapes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="loadingscreen">
-        <img class="titleimg" src="./public/TYPE2.png">
-        <p class="titlename">digital diary</p>
+        <img class="titleimg" src="./public/font_2.png">
+        <p class="titlename">Digital Diary</p>
     <div id="date_time_container"> 
         <div id="dateHere"></div>
         <div id="timeHere"></div>
     </div>    
-        <p class="loading">loading...</p>
-        <button id="startbutton">press to start</button>
+    <p class="loading">
+        <span>l</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>
+    </p>
+        <button id="startbutton"><span class = "start-text">press to start</span></button>
     </div>
     <div id="instructionScreen" class="overlay">
      <di class="instruction-box">
@@ -31,7 +36,7 @@
 
     <div class="navbar">
         <a href="./index.html" class="about">home</a>
-        <a href="./about.html" class="about">about</a>
+        <a href="./about_page.html" class="about">about</a>
         <a href="./past.html" class="past">past</a>
     </div>
     <canvas id="canvas3d"></canvas>
