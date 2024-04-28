@@ -1,8 +1,5 @@
-canvas {
-    width: 1000px;  
-    height: 1000px; 
-    object-fit: cover; 
-    z-index: 1;
+body{
+    background-color: black;
 }
 
 #loadingscreen{
@@ -102,10 +99,8 @@ li{
     color: white;        
 }
 
-.navbar div { 
-    margin-right: 40px; 
-}
-
-.navbar div:last-child {  
-    margin-right: 10px;
-}
+.navbar a {
+    text-decoration: none;  
+    color: rgb(255, 255, 255);          
+    margin-right: 20px;    
+} 
