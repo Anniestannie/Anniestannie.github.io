@@ -55,6 +55,7 @@ startButton.addEventListener('click', function() {
 
     const popSound = document.getElementById('popSound');
     popSound.volume = 0.2;
+    
     popSound.play();  
 });
 
