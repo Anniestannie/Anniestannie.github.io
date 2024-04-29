@@ -54,8 +54,8 @@ startButton.addEventListener('click', function() {
     instructionScreen.style.display = 'flex'; 
 
     const popSound = document.getElementById('popSound');
-    popSound.volume = 0.2;
-    
+    popSound.volume = 0.3;
+
     popSound.play();  
 });
 
