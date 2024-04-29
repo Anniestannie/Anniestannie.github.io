@@ -15,16 +15,10 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         project1: resolve(__dirname, 'project-1/index.html'),
         project2: resolve(__dirname, 'project-2/index.html'),
-<<<<<<< Updated upstream
         heartscapes: resolve(__dirname, 'heartscapes/index.html'),
         heartscapes_about: resolve(__dirname, 'heartscapes/about_page.html'),
         heartscapes_past: resolve(__dirname, 'heartscapes/past.html'),
-=======
-        senior_project: resolve(__dirname, 'Senior_Project/index.html'),
-        senior_project_about: resolve(__dirname, 'Senior_Project/about_page.html'),
-        senior_project_past: resolve(__dirname, 'Senior_Project/past.html'),
-        senior_project_past: resolve(__dirname, 'Senior_Project/April28.html'),
->>>>>>> Stashed changes
+        heartscapes_april28: resolve(__dirname, 'heartscapes/April28.html'),
       },
     },
   },
