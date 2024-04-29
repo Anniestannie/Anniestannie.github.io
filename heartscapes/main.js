@@ -46,11 +46,16 @@ let loadingScreen = document.getElementById('loadingscreen');
 
 setTimeout(function() {
     startButton.style.display = 'block'; 
-}, 8000); 
+
+}, 7000); 
 
 startButton.addEventListener('click', function() {
     loadingScreen.style.display = 'none';
     instructionScreen.style.display = 'flex'; 
+
+    const popSound = document.getElementById('popSound');
+    popSound.volume = 0.2;
+    popSound.play();  
 });
 
 let instructionScreen = document.getElementById('instructionScreen');
