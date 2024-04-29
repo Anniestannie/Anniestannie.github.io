@@ -42,12 +42,11 @@ spline.load('https://prod.spline.design/ZNEYJmC5Grii19k8/scene.splinecode')
 
 let startButton = document.getElementById('startbutton');
 let loadingScreen = document.getElementById('loadingscreen');
-    
+let loadingTime = 7000;
 
 setTimeout(function() {
     startButton.style.display = 'block'; 
-
-}, 7000); 
+}, loadingTime); 
 
 startButton.addEventListener('click', function() {
     loadingScreen.style.display = 'none';
@@ -71,4 +70,4 @@ function hideLoadingText() {
   loadingText.style.visibility = "hidden";
 }
 
-setTimeout(hideLoadingText, 5000); 
+setTimeout(hideLoadingText, loadingTime); 
