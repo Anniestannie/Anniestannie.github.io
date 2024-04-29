@@ -18,15 +18,16 @@ body {
 
 .about-intro h1 {
     font-size: 30px;
-    font-weight: 500;
-    padding-bottom: 30px;
+    font-weight: 300;
+    padding-bottom: 15px;
 }
 
 .about-intro p {
     line-height: 1.6;         
     max-width: 800px;          
     margin: 0 auto;  
-    text-align: left;          
+    text-align: left;   
+    font-weight: 300;       
 }
 
 .navbar {

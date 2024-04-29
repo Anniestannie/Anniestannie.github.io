@@ -46,7 +46,7 @@ let loadingScreen = document.getElementById('loadingscreen');
 
 setTimeout(function() {
     startButton.style.display = 'block'; 
-}); 
+}, 8000); 
 
 startButton.addEventListener('click', function() {
     loadingScreen.style.display = 'none';

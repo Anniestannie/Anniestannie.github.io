@@ -21,12 +21,12 @@ body{
 .titleimg{
     position: relative;
     bottom: 100px;
-    max-width: 80%;              
+    max-width: 90%;              
 }
 .titlename{
     position: relative;
-    bottom: 130px;
-    font-size: 25px;
+    bottom: 140px;
+    font-size: 20px;
     color: white;
 }
 
@@ -43,6 +43,7 @@ body{
     position: relative;
     bottom: 150px;
     font-size: 15px;
+    font-weight: 200;
     color: white;
 }
 
@@ -50,6 +51,7 @@ body{
     position: relative;
     bottom: 150px;
     font-size: 15px;
+    font-weight: 200;
     color: white;
 }
 
@@ -71,6 +73,7 @@ body{
     padding: 20px;
     border-radius: 30px;
     text-align: center;
+    width: 425px;
     display: flex;
     flex-direction: column;
   }
@@ -79,15 +82,18 @@ body{
 .title{
     font-size: rubik;
     margin-bottom:15px;
+    font-weight: 200;
   }
 
 ul{
     position: relative; 
-    left: 35%;
+    left: 75%;
+    transform: translate(-50%);
     text-align: left;
     list-style-type: circle;
     font-size: rubik;
     font-size: 15px;
+    font-weight: 200;
   }
 
 li{
@@ -97,13 +103,14 @@ li{
 #closeInstructions {
     position: relative;
     top: 5px;
-    left: 425px;
+    left: 405px;
     width: 30px;
     height: 30px;
     background: none; 
     border: none;
     font-family: rubik;
     font-size: 18px; 
+    font-weight: 400;
     color:black;
     cursor: pointer;
     background-color: white;
@@ -145,16 +152,18 @@ li{
     font-weight: normal;
     font-size: 15px;
     color: black;
+    font-weight: 300;
 }
 
 #startbutton{
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
     padding: 10px 20px;
     border: none;
     overflow: hidden;
     border-radius: 20px;
-    border-style: double;
+    border: white;
+    border-style:double;
     background-color: white;
     display: none;
 }
@@ -178,6 +187,9 @@ li{
 
 .loading span {
     display: inline-block; 
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
     animation: jump 1.5s infinite alternate; 
 }
 
