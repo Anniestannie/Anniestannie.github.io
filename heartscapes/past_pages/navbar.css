@@ -8,7 +8,8 @@
     justify-content: space-around;     
     padding: 10px;
     z-index: 10; 
-    color: white;        
+    color: white;       
+    font-family: rubik; 
 }
 
 .navbar a {
