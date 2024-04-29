@@ -16,6 +16,8 @@ export default defineConfig({
         project1: resolve(__dirname, 'project-1/index.html'),
         project2: resolve(__dirname, 'project-2/index.html'),
         senior_project: resolve(__dirname, 'Senior_Project/index.html'),
+        senior_project_about: resolve(__dirname, 'Senior_Project/about_page.html'),
+        senior_project_past: resolve(__dirname, 'Senior_Project/past.html'),
       },
     },
   },
