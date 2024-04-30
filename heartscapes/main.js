@@ -42,7 +42,7 @@ spline.load('https://prod.spline.design/ZNEYJmC5Grii19k8/scene.splinecode')
 
 let startButton = document.getElementById('startbutton');
 let loadingScreen = document.getElementById('loadingscreen');
-let loadingTime = 7000;
+// let loadingTime = 7000;
 
 setTimeout(function() {
     startButton.style.display = 'block'; 
