@@ -38,11 +38,13 @@ const canvas = document.getElementById('canvas3d');
 
 const spline = new Application(canvas);
 // spline.load('https://prod.spline.design/aQE0zOgRV8XlSncK/scene.splinecode');
-spline.load('https://prod.spline.design/ZNEYJmC5Grii19k8/scene.splinecode')
+spline.load('https://prod.spline.design/g0BE3sezyFtVwOof/scene.splinecode')
+
+
 
 let startButton = document.getElementById('startbutton');
 let loadingScreen = document.getElementById('loadingscreen');
-// let loadingTime = 7000;
+let loadingTime = 7000;
 
 setTimeout(function() {
     startButton.style.display = 'block'; 
