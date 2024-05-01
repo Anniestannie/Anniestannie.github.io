@@ -20,8 +20,11 @@ export default defineConfig({
         heartscapes_past: resolve(__dirname, 'heartscapes/past.html'),
         heartscapes_april28: resolve(__dirname, 'heartscapes/past_pages/April28.html'),
         heartscapes_april29: resolve(__dirname, 'heartscapes/past_pages/April29.html'),
+        heartscapes_april30: resolve(__dirname, 'heartscapes/past_pages/April30.html'),
+        heartscapes_may1: resolve(__dirname, 'heartscapes/past_pages/May1.html'),
         heartscapes_pop: resolve(__dirname, 'heartscapes/audio/happy-pop-2-185287.mp3'),
       },
     },
   },
 })
+
