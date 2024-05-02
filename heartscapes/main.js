@@ -41,7 +41,6 @@ const spline = new Application(canvas);
 spline.load('https://prod.spline.design/G0IE-dgDKD0eCn8p/scene.splinecode');
 
 
-
 let startButton = document.getElementById('startbutton');
 let loadingScreen = document.getElementById('loadingscreen');
 let loadingTime = 7000;
