@@ -38,7 +38,7 @@ const canvas = document.getElementById('canvas3d');
 
 const spline = new Application(canvas);
 // spline.load('https://prod.spline.design/aQE0zOgRV8XlSncK/scene.splinecode');
-spline.load('https://prod.spline.design/dM-DaK0litg2ovI2/scene.splinecode')
+spline.load('https://prod.spline.design/0bVu8kQUHoTIBnpT/scene.splinecode')
 
 
 
