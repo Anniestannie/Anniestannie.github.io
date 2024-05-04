@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.rice-cooker {
+    width: 25%;
+    position: relative;
+}
+
+.rice-bowls {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 10px; 
+}
+
+.steam-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.rice-paddle {
+    cursor: url('./public/rice_paddle.png'), auto;
+}
+
+.bowl {
+    width: 100%;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
