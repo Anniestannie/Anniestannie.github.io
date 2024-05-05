@@ -72,3 +72,37 @@ position: relative;
     object-fit: contain; 
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+    }
+
+    .rice-cooker {
+        top: 150px;
+        left: 50%;
+        transform: translateX(-100%);
+        flex-basis: 30%; 
+        max-width: 30%; 
+        margin-bottom: 100px;
+    }
+
+    .rice-cooker img {
+        max-width: 250%;
+        width: auto; 
+        height: auto; 
+        max-height: 100%; 
+    }
+
+    #steam{
+        left: 150px;
+        bottom: 195px;
+    }
+
+    .rice-bowl-container {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 80px;
+    }
+    .rice-bowls img{
+        max-width: 170%;
+    }
+}

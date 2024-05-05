@@ -1,3 +1,7 @@
+import riceBowlFull from "./public/RICEBOWLFULL-07.png";
+import riceBowlEmpty from "./public/RICEBOWLEMPTY-05-2.png";
+import riceBowlHalf from "./public/RICEBOWLHALF-06.png";
+
 let riceCookerImg = document.getElementById("cooker-state");
 let steamImg = document.getElementById("steam");
 
@@ -42,8 +46,9 @@ updateRiceCooker();
 setInterval(updateRiceCooker, 1000); 
 
 let bowlImages = {
-    empty: './public/RICEBOWLEMPTY-05-2.png',
-    full: './public/RICEBOWLFULL-07.png'
+    empty: riceBowlEmpty,
+    full: riceBowlFull,
+    half: riceBowlHalf
 };
 
 let bowlElements = [
@@ -86,11 +91,10 @@ function updateRiceBowls() {
     }
       
     if (minute >= 30) { 
-        bowlElements[hour - 1].src = bowlImages.full; 
+        bowlElements[hour].src = bowlImages.half;
     }
 }
 
 updateRiceBowls();
 
-  
-  
+setInterval(updateRiceBowls, 1000); 
