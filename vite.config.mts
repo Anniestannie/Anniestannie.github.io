@@ -25,7 +25,7 @@ export default defineConfig({
         heartscapes_may2: resolve(__dirname, 'heartscapes/past_pages/May2.html'),
         heartscapes_may3: resolve(__dirname, 'heartscapes/past_pages/May3.html'),
         heartscapes_pop: resolve(__dirname, 'heartscapes/audio/happy-pop-2-185287.mp3'),
-        project3: resolve(__dirname, 'project-3/index.html'),
+        project3: resolve(__dirname, 'Project-3/index.html'),
       },
     },
   },
