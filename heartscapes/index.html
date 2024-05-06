@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Heartscapes</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Heartscapes</title>
+    <link rel="stylesheet" href="./past.css">
+    <link rel="icon" href="./public/FAVICON-2.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="icon" href="./public/FAVICON-2.ico">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -17,29 +18,61 @@
         <div id="dateHere"></div>
         <div id="timeHere"></div>
     </div>    
-    <p class="loading">
-        <span>l</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>
-    </p>
-        <button id="startbutton"><span class = "start-text">press to start</span></button>
+        <button id="startbutton"><span class = "start-text">Next</span></button>
         <audio id="popSound" src="./audio/happy-pop-2-185287.mp3"></audio>
     </div>
-    <div id="instructionScreen" class="overlay">
-     <di class="instruction-box">
-        <button id="closeInstructions">X</button> 
-        <h2 class="title">Instructions to navigate Heartscapes</h2>
-        <ul>
-            <li>Pinch or scroll to zoom</li>
-            <li>Two fingers to pan</li>
-            <li>Click to rotate</li>
-        </ul> 
-        </di>
-    </div>
-    <div class="navbar">
-        <a href="./index.html" class="about">home</a>
-        <a href="./about_page.html" class="about">about</a>
-        <a href="./past.html" class="past">past</a>
-    </div>
-    <canvas id="canvas3d"></canvas>
-    <script type="module" src="./main.js"></script>
+
+    <main>
+        <section class="past-grid">
+            <h1>Heartscapes</h1>
+
+            <div id="instructionScreen">
+                <div class="instruction-box">
+                   <h2 class="title">Instructions to navigate Heartscapes</h2>
+                   <ul>
+                       <li>Pinch or scroll to zoom</li>
+                       <li>Two fingers to pan</li>
+                       <li>Click to rotate</li>
+                   </ul> 
+                   </di>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="./past_pages/April28.html"> <img src="./public/untitled-copy-74 (dragged).png"></a>
+                    <p>April 28</p>
+                </div>
+                <div class="grid-item">
+                    <a href="./past_pages/April29.html"> <img src="./public/Screenshot 2024-04-29 at 1.00.02 AM.png"></a>
+                    <p>April 29</p>
+                </div>
+                <div class="grid-item">
+                    <a href="./past_pages/April30.html"> <img src="./public/Screenshot 2024-04-30 at 6.09.33 AM.png"></a>
+                    <p>April 30</p>
+                </div>
+                <div class="grid-item">
+                    <a href="./past_pages/May1.html"> <img src="./public/Screenshot 2024-05-01 at 3.22.21 AM.png"></a>
+                    <p>May 1</p>
+                </div>
+                <div class="grid-item">
+                    <a href="./past_pages/May2.html"> <img src="./public/Screenshot 2024-05-02 at 1.29.58 AM.png"></a>
+                    <p>May 2</p>
+                </div>
+                <div class="grid-item">
+                    <a href="./past_pages/May3.html"> <img src="./public/Screenshot 2024-05-03 at 2.19.07 AM.png"></a>
+                    <p>May 3</p>
+                </div>
+                <div class="grid-item">
+                    <a href="./past_pages/May4.html"> <img src="./public/Screenshot 2024-05-04 at 1.36.02 AM.png"></a>
+                    <p>May 4</p>
+                </div>
+            </div>
+        </section>
+        <div class="navbar">
+            <a href="./index.html" class="about">home</a>
+            <a href="./about_page.html" class="about">about</a>
+        </div>
+    </main>
+    <script type="module" src="./past.js"></script>
 </body>
 </html>

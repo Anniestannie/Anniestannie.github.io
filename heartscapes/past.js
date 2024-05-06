@@ -1,3 +1,37 @@
+updateTime();
+function updateTime() {
+
+    let today = new Date();
+    
+    let thisMonth = today.getMonth();
+    
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    
+    let thisDate = today.getDate();
+    
+    let thisYear = today.getFullYear();
+    
+    let dateElement = document.getElementById("dateHere");
+    
+    dateElement.innerHTML = months[thisMonth] + " " + thisDate + ", " + thisYear;
+    
+    let thisHour = today.getHours() % 12;
+    let thisMinute = today.getMinutes();
+    let thisSecond = today.getSeconds();
+      
+    if(thisMinute < 10)
+      thisMinute = "0" + thisMinute;
+      
+    if(thisSecond < 10) 
+      thisSecond = "0" + thisSecond;
+
+    let timeElement = document.getElementById("timeHere");
+    
+    timeElement.innerHTML = thisHour + ":" + thisMinute + ":" + thisSecond;
+}
+    
+setInterval(updateTime, 1000);
+
 let gridContainer = document.querySelector('.grid-container');
 let gridItems = document.querySelectorAll('.grid-item');
 
@@ -27,3 +61,13 @@ function adjustGridForScreenSize() {
 adjustGridForScreenSize(); 
 
 window.addEventListener('resize', adjustGridForScreenSize);
+
+document.addEventListener("DOMContentLoaded", function() {
+    const startButton = document.getElementById("startbutton");
+
+    const loadingScreen = document.getElementById("loadingscreen");
+
+    startButton.addEventListener("click", function() {
+        loadingScreen.style.display = "none";
+    });
+});

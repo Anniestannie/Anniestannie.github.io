@@ -10,11 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
-        <a href="../index.html" class="about">home</a>
-        <a href="../about_page.html" class="about">about</a>
-        <a href="../past.html" class="past">past</a>
-    </div>
+    <div id="loadingscreen"> 
+        <p class="loading">
+            <span>l</span><span>o</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span><span>.</span><span>.</span><span>.</span>
+        </p>
+            <button id="startbutton"><span class = "start-text">press to start</span></button>
+            <audio id="popSound" src="./audio/happy-pop-2-185287.mp3"></audio>
+        </div>
+    
+    
+        <div class="navbar">
+            <a href="../index.html" class="home">home</a>
+            <a href="../about_page.html" class="about">about</a>
+        </div>
     <canvas id="canvas3d"></canvas>
     <script type="module" src="./may2.js"></script>
 </body>
