@@ -3,9 +3,11 @@ import riceBowlEmpty from "./public/RICEBOWLEMPTY-05-2.png";
 import riceBowlHalf from "./public/RICEBOWLHALF-06.png";
 import imgClosed from "./public/RICECOOKERCLOSED-11.png";
 import imgOpenWithRice from "./public/RICECOOKEROPENEDFULL-03.png";
+import riceSoundSrc from "./public/Zojirushi rice cooker mystery song [TubeRipper.com].mp3";
 
 let riceCookerImg = document.getElementById("cooker-state");
 let steamImg = document.getElementById("steam");
+let riceSound = new Audio(riceSoundSrc);
 
 let imgSteam = './public/SSS.png';
 
@@ -20,11 +22,12 @@ function updateRiceCooker(){
     if (minutes === 30 && seconds === 0 && !isOpen) { 
         riceCookerImg.src = imgOpenWithRice;
         isOpen = true;
+        riceSound.play();
 
         setTimeout(function() {
             riceCookerImg.src = imgClosed;
             isOpen = false;
-        }, 10000); 
+        }, 60000); 
     } else if ((minutes < 30 || minutes >= 31) && isOpen) { 
         riceCookerImg.src = imgClosed;
         isOpen = false;
@@ -44,6 +47,9 @@ function updateRiceCooker(){
 updateRiceCooker();
 
 setInterval(updateRiceCooker, 1000); 
+
+
+
 
 let bowlImages = {
     empty: riceBowlEmpty,
