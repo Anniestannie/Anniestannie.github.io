@@ -19,7 +19,7 @@ function updateRiceCooker(){
     let seconds = now.getSeconds();
 
 
-    if (minutes === 30 && seconds === 0 && !isOpen) { 
+    if ((minutes === 30 || (mintes == 0 && seconds == 0)) && !isOpen) { 
         riceCookerImg.src = imgOpenWithRice;
         isOpen = true;
         riceSound.play();
