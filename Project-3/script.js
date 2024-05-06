@@ -19,7 +19,7 @@ function updateRiceCooker(){
     let seconds = now.getSeconds();
 
 
-    if ((minutes === 30 || (mintes == 0 && seconds == 0)) && !isOpen) { 
+    if ((minutes === 30 || minutes == 0) && !isOpen) { 
         riceCookerImg.src = imgOpenWithRice;
         isOpen = true;
         riceSound.play();
@@ -32,8 +32,6 @@ function updateRiceCooker(){
         riceCookerImg.src = imgClosed;
         isOpen = false;
     }
-
-
 
     if (seconds % 2 === 0) {
         steamImg.style.transform = 'scaleX(1)'; 
