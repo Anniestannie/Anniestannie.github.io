@@ -1,6 +1,7 @@
 body{
     background-color: black;
     font-family: rubik;
+    cursor: url('../public/cursor-4.cur'), auto;
 }
 
 
@@ -35,6 +36,7 @@ body{
 #startbutton:hover{
     background-color: grey;
     transition: left 0.9s ease-out;
+    cursor: url('../public/cursor-5.cur'), auto;
 }
 
 

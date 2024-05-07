@@ -22,4 +22,5 @@
 
 .navbar a:hover{
     color: grey;
+    cursor: url('../public/cursor-5.cur'), auto;
 }

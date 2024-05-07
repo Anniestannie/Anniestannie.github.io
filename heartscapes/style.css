@@ -1,6 +1,7 @@
 body{
     background-color: black;
     font-family: Rubik,-serif;
+    cursor: url('./public/cursor-2.cur'), auto;
 }
 
 #loadingscreen{
