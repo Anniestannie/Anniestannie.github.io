@@ -1,7 +1,8 @@
 body {
     background-color: black; 
     color: white;     
-    font-family: rubik;    
+    font-family: rubik;  
+    cursor: url('./public/cursor-4.cur'), auto;  
 }
 
 .poster{
@@ -53,4 +54,5 @@ body {
 
 .navbar a:hover{
     color: grey;
+    cursor: url('./public/cursor-5.cur'), auto;
 }
