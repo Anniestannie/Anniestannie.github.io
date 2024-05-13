@@ -14,6 +14,13 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         project1: resolve(__dirname, 'project-1/index.html'),
+        project1_1: resolve(__dirname, 'project-1/second-page.html'),
+        project1_2: resolve(__dirname, 'project-1/third-page.html'),
+        project1_3: resolve(__dirname, 'project-1/fourth-page.html'),
+        project1_4: resolve(__dirname, 'project-1/fifth-page.html'),
+        project1_5: resolve(__dirname, 'project-1/sixth-page.html'),
+        project1_6: resolve(__dirname, 'project-1/seventh-page.html'),
+
         project2: resolve(__dirname, 'project-2/index.html'),
 
         heartscapes: resolve(__dirname, 'heartscapes/index.html'),

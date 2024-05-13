@@ -4,7 +4,15 @@ let stickersControl = document.getElementById('stickers');
 let stickerOverlay = document.getElementById('sticker-overlay');
 let saturationControl = document.getElementById('cam-saturation');
 
-
+import stickers1 from "./assets/stickers.ai-15.png";
+import stickers2 from "./assets/stickers.ai-12.png";
+import stickers3 from "./assets/stickers.ai-16.png";
+import stickers4 from "./assets/stickers.ai-13.png";
+import stickers5 from "./assets/stickers.ai-14.png";
+import stickers6 from "./assets/stickers.ai-17.png";
+import stickers7 from "./assets/stickers.ai-18.png";
+import stickers8 from "./assets/stickers.ai-19.png";
+import stickers9 from "./assets/stickers.ai-20.png";
 
 navigator.mediaDevices.getUserMedia({ video: true })
     .then(stream => {
@@ -21,15 +29,9 @@ saturationControl.addEventListener('input', () => {
 
 
 
-let stickersImages = ['./assets/stickers.ai-15.png',
-'./assets/stickers.ai-12.png',
-'./assets/stickers.ai-16.png',
-'./assets/stickers.ai-13.png',
-'./assets/stickers.ai-14.png',
-'./assets/stickers.ai-17.png',
-'./assets/stickers.ai-18.png',
-'./assets/stickers.ai-19.png',
-'./assets/stickers.ai-20.png',];
+let stickersImages = [
+    stickers1, stickers2, stickers3, stickers4, stickers5, stickers6, stickers7, stickers8, stickers9,
+];
 
 let MAXIMUM_STICKERS = 50;
 
@@ -77,13 +79,20 @@ let photooverlayImage = document.getElementById('photo-overlay');
 let overlayRange = document.getElementById('overlay-range');
 
 
+import overlayImage1 from "./assets/photooverlays-01.png";
+import overlayImage2 from "./assets/photooverlays-02.png";
+import overlayImage3 from "./assets/photooverlays-03.png";
+import overlayImage4 from "./assets/photooverlays-04.png";
+import overlayImage5 from "./assets/photooverlays-05.png";
+import overlayImage6 from "./assets/photooverlays-06.png";
+
 let overlayImages = [
-    './assets/photooverlays-01.png',
-    './assets/photooverlays-02.png',
-    './assets/photooverlays-03.png',
-    './assets/photooverlays-04.png',
-    './assets/photooverlays-05.png',
-    './assets/photooverlays-06.png',
+    overlayImage1,
+    overlayImage2,
+    overlayImage3,
+    overlayImage4,
+    overlayImage5,
+    overlayImage6,
 ];
 
 function updateOverlayImage() {
@@ -102,12 +111,18 @@ overlayRange.addEventListener('input', updateOverlayImage);
 let animeEyesImage = document.getElementById('anime-eyes-image');
 let animeEyesRange = document.getElementById('anime-eyes-range');
 
+import eyes1 from "./assets/AnimeEyes-03.png";
+import eyes2 from "./assets/AnimeEyes-04.png";
+import eyes3 from "./assets/AnimeEyes-05.png";
+import eyes4 from "./assets/AnimeEyes-06.png";
+import eyes5 from "./assets/AnimeEyes-07.png";
+
 let animeEyesImages = [
-    './assets/AnimeEyes-03.png',
-    './assets/AnimeEyes-04.png',
-    './assets/AnimeEyes-05.png',
-    './assets/AnimeEyes-06.png',
-    './assets/AnimeEyes-07.png',
+   eyes1,
+   eyes2,
+   eyes3,
+   eyes4,
+   eyes5
 ];
 
 function updateAnimeEyesImage() {
@@ -126,17 +141,17 @@ animeEyesRange.addEventListener('input', updateAnimeEyesImage);
 let accessoriesImage = document.getElementById('accessories-image');
 let accessoriesRange = document.getElementById('Accessories-range');
 
+import accessories1 from "./assets/accessories-01.png";
+import accessories2 from "./assets/accessories-02.png";
+import accessories3 from "./assets/accessories-08.png";
+import accessories4 from "./assets/accessories-09.png";
+import accessories5 from "./assets/accessories-10.png";
+import accessories6 from "./assets/accessories-11.png";
+import accessories7 from "./assets/accessories-12.png";
+import accessories8 from "./assets/accessories-13.png";
+
 let accessoriesImages = [
-    './assets/accessories-01.png',
-    './assets/accessories-02.png',
-    './assets/accessories-08.png',
-    './assets/accessories-09.png',
-    './assets/accessories-10.png',
-    './assets/accessories-11.png',
-    './assets/accessories-12.png',
-    './assets/accessories-13.png',
-    './assets/accessories-14.png',
-   
+  accessories1, accessories2,accessories3, accessories4, accessories5, accessories6, accessories7, accessories8,
 ];
 
 function updateAccessoriesImage() {
@@ -156,12 +171,13 @@ accessoriesRange.addEventListener('input', updateAccessoriesImage);
 let blushImage = document.getElementById('blush-image');
 let blushRange = document.getElementById('blush-range');
 
+import blush1 from "./assets/blush-15.png";
+import blush2 from "./assets/blush-16.png";
+import blush3 from "./assets/blush-17.png";
+import blush4 from "./assets/blush-18.png";
+
 let blushImages = [
-    './assets/blush-15.png',
-    './assets/blush-16.png',
-    './assets/blush-17.png',
-    './assets/blush-18.png',
-    
+   blush1, blush2, blush3, blush4
 ];
 
 function updateBlushImage() {
