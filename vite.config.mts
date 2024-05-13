@@ -20,6 +20,7 @@ export default defineConfig({
         project1_4: resolve(__dirname, 'project-1/fifth-page.html'),
         project1_5: resolve(__dirname, 'project-1/sixth-page.html'),
         project1_6: resolve(__dirname, 'project-1/seventh-page.html'),
+        project1_7: resolve(__dirname, 'project-1/check.html'),
 
         project2: resolve(__dirname, 'project-2/index.html'),
 
