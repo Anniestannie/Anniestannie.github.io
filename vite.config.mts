@@ -19,7 +19,6 @@ export default defineConfig({
         project1_3: resolve(__dirname, 'project-1/fourth-page.html'),
         project1_4: resolve(__dirname, 'project-1/fifth-page.html'),
         project1_5: resolve(__dirname, 'project-1/sixth-page.html'),
-        project1_7: resolve(__dirname, 'project-1/eighth-page.html'),
         project1_6: resolve(__dirname, 'project-1/seventh-page.html'),
         project1_check: resolve(__dirname, 'project-1/check-page.html'),
         
